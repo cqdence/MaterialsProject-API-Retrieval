@@ -5,3 +5,4 @@ __pycache__/
 .api_key
 Exports/
 *.csv
+.DS_Store
