@@ -9,13 +9,7 @@ Pulls band structure and density of states (DOS) data from the [Materials Projec
 Open a terminal, run the command
 
 ```bash
-cd ~/Downloads && git clone https://github.com/cqdence/MaterialsProject-API-Retrieval/
-```
-
-Navigate into the **`MaterialsProject-API-Retrieval/`** folder directory (`cd MaterialsProject-API-Retrieval/`), and run:
-
-```bash
-bash setup.sh
+cd ~/Downloads && git clone https://github.com/cqdence/MaterialsProject-API-Retrieval/ && cd MaterialsProject-API-Retrieval/ && bash setup.sh
 ```
 
 The script will automatically check for and install anything that's missing:
