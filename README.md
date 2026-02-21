@@ -9,10 +9,10 @@ Pulls band structure and density of states (DOS) data from the [Materials Projec
 Open a terminal, run the command
 
 ```bash
-git clone https://github.com/cqdence/MaterialsProject-API-Retrieval/
+cd ~/Downloads && git clone https://github.com/cqdence/MaterialsProject-API-Retrieval/
 ```
 
-cd into the **Emery/** folder directory, and run:
+cd into the **`MaterialsProject-API-Retrieval/`** folder directory (`cd MaterialsProject-API-Retrieval/`), and run:
 
 ```bash
 bash setup.sh
