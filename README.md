@@ -6,15 +6,19 @@ Pulls band structure and density of states (DOS) data from the [Materials Projec
 
 ## First time setup
 
-You need **Python 3.9+** installed. If you don't have it, download it from [python.org/downloads](https://www.python.org/downloads/) — just run the installer, no special options needed.
-
-Then open a terminal, navigate to this folder, and run:
+Open a terminal, navigate to this folder, and run:
 
 ```bash
 bash setup.sh
 ```
 
-That installs everything. You only need to do this once.
+The script will automatically check for and install anything that's missing:
+- **Xcode Command Line Tools** (built-in Mac dev tools — a pop-up will appear, just click Install)
+- **Homebrew** (Mac package manager)
+- **Python 3.9+**
+- **All required Python packages**
+
+You only need to do this once.
 
 ---
 
