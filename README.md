@@ -12,7 +12,7 @@ Open a terminal, run the command
 cd ~/Downloads && git clone https://github.com/cqdence/MaterialsProject-API-Retrieval/
 ```
 
-cd into the **`MaterialsProject-API-Retrieval/`** folder directory (`cd MaterialsProject-API-Retrieval/`), and run:
+Navigate into the **`MaterialsProject-API-Retrieval/`** folder directory (`cd MaterialsProject-API-Retrieval/`), and run:
 
 ```bash
 bash setup.sh
@@ -37,8 +37,8 @@ bash run.sh
 ```
 
 It will ask you:
-1. Your **API key** (found at [next-gen.materialsproject.org/api](https://next-gen.materialsproject.org/api) after logging in — it will offer to save it so you only type it once)
-2. The **material ID(s)** you want — found on the material's page on the website, looks like `mp-149`. You can enter multiple separated by spaces.
+1. Your **API key**
+2. The **material ID(s)** you want. You can enter multiple separated by spaces.
 3. The **k-path convention** (just press Enter to use the default)
 
 Your files will appear in the **`Exports/`** folder.
