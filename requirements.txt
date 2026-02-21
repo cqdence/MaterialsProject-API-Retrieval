@@ -1,0 +1,4 @@
+mp-api>=0.46.0
+pymatgen>=2025.10.7
+emmet-core>=0.86.3
+pandas>=3.0.1
